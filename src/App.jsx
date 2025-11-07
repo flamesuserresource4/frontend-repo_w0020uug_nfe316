@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Announcement from './components/Announcement';
 import Home from './pages/Home';
 import Services from './pages/Services';
 import Projects from './pages/Projects';
@@ -12,6 +13,7 @@ import GetStarted from './pages/GetStarted';
 function App() {
   return (
     <div className="min-h-screen flex flex-col bg-white">
+      <Announcement />
       <Navbar />
       <div className="flex-1">
         <Routes>
